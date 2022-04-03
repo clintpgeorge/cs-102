@@ -36,14 +36,15 @@ Phone: 832 249 0117
 
 ## Teaching Assistants
 
-- Chitra Nayagam — chitra [at] iitgoa [dot] ac [dot] in;
+- Chitra Nayagam — chitra [at] iitgoa [dot] ac [dot] in — 
   Office: _Computing Center_, Admin Block, IIT Goa
 
 - Divya Mishra — divya2113108 [at] iitgoa  [dot] ac [dot] in  
+
 - Soumya Ranjan Pattanayk — soumya2113104 [at] iitgoa [dot] ac [dot] in
 
-- Shreyansh Aswal — shreyansh2113103 [at] iitgoa [dot] ac [dot] in
 - Raushan Kumar
+
 - Anshul Moon 
 
 ## Weekly Meetings
@@ -95,7 +96,7 @@ The tentative grade distribution for the course is follows
 
 - Quizzes and Midterm (40%) 
 
-- Homework/Programming/Lab assignments (30%): 
+- Homework/Programming/Lab assignments (30%)
 
 - Final (30%)
 
