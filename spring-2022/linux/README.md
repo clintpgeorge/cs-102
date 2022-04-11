@@ -145,7 +145,9 @@ Another example is that we can combine `wc` with other commands using the pipe `
 ## Information on users/groups 
 
 * `who`  
+  
 * `whoami` 
+  
 * `id`  
   
 * `groups` shows all groups the user belongs to  
@@ -212,9 +214,6 @@ This command helps to find files based on various filters, some are given below.
 * `-user` filter for user name, e.g., `-user aman`
 * `-mtime` filter for the number of days based on the last modified date  
 
-<!--For more details, see this [video](https://www.youtube.com/watch?v=yCTnihfbPCo&ab_channel=ZachGollwitzer) -->
-
-----
 
 ## Acknowledgements 
 
