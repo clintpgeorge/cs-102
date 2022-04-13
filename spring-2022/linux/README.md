@@ -2,29 +2,29 @@
 _Version 0.1_ 
 
 - [GNU/Linux Commands, Shell Scripting](#gnulinux-commands-shell-scripting)
-	- [Basic shell commands](#basic-shell-commands)
-		- [`man`](#man)
-		- [`pwd`](#pwd)
-		- [`cd`](#cd)
-		- [`ls`](#ls)
-		- [`mkdir`](#mkdir)
-		- [`touch`](#touch)
-		- [`cp`](#cp)
-		- [`mv`](#mv)
-		- [`rm`](#rm)
-		- [`cat`](#cat)
-		- [`wc`](#wc)
-		- [`less`](#less)
-		- [Pipe (`|`)](#pipe-)
-	- [Information on users/groups](#information-on-usersgroups)
-	- [File and directory ownership and permissions](#file-and-directory-ownership-and-permissions)
-		- [Change file access permissions via `chmod`](#change-file-access-permissions-via-chmod)
-		- [Change user/group via `chown`](#change-usergroup-via-chown)
-	- [Search tools](#search-tools)
-		- [`grep`](#grep)
-		- [`find`](#find)
-	- [Acknowledgements](#acknowledgements)
-	- [References](#references)
+  - [Basic shell commands](#basic-shell-commands)
+    - [`man`](#man)
+    - [`pwd`](#pwd)
+    - [`cd`](#cd)
+    - [`ls`](#ls)
+    - [`mkdir`](#mkdir)
+    - [`touch`](#touch)
+    - [`cp`](#cp)
+    - [`mv`](#mv)
+    - [`rm`](#rm)
+    - [`cat`](#cat)
+    - [`wc`](#wc)
+    - [`less`](#less)
+    - [Pipe (`|`)](#pipe-)
+  - [Information on users/groups](#information-on-usersgroups)
+  - [File and directory ownership and permissions](#file-and-directory-ownership-and-permissions)
+    - [Change file access permissions via `chmod`](#change-file-access-permissions-via-chmod)
+    - [Change user/group via `chown`](#change-usergroup-via-chown)
+  - [Search tools](#search-tools)
+    - [`grep`](#grep)
+    - [`find`](#find)
+  - [Acknowledgements](#acknowledgements)
+  - [References](#references)
 
 ## Basic shell commands 
 
@@ -127,11 +127,9 @@ One can consider this as a lightweight content viewer for the output stream or a
 
 ### Pipe (`|`)
 
-A pipe `|` is a form of redirection to send the output of one command/program/process to another command/program/process as input for further processing.
+A pipe `|` is a form of redirection to send the output of one command/program/process to another command/program/process as input for further processing. It is unidirectional, i.e., the data flow is from left to right. 
 
-It is unidirectional, i.e., the data flow is from left to right. 
-
-One example is below.  
+An example is below.  
 
     ls -alS | less 
 
@@ -195,7 +193,7 @@ Examples
 
 ### `grep` 
 
-This command helps to search for a given word. 
+Command `grep` helps to search for a given word. 
 
 Usage: 
 
@@ -208,11 +206,13 @@ Options:
 
 ### `find` 
 
-This command helps to find files based on various filters, some are given below. 
+Command `find` helps to find files based on various filters, some are given below. 
 * `-type` use `f` for file and `d` for directory, e.g., `-type f`
 * `-perm` filter for permission, e.g., `-perm 775`, `-perm 777`, etc. 
 * `-user` filter for user name, e.g., `-user aman`
-* `-mtime` filter for the number of days based on the last modified date  
+* `-mtime` filter for the number of days in terms of the last modified date of a file or a directory 
+
+An example is given below. 
 
 
 ## Acknowledgements 
