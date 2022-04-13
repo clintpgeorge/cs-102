@@ -1,5 +1,6 @@
 # GNU/Linux Commands, Shell Scripting
-_Version 0.1_ 
+
+_Version 0.2_ 
 
 - [GNU/Linux Commands, Shell Scripting](#gnulinux-commands-shell-scripting)
   - [Basic shell commands](#basic-shell-commands)
@@ -23,6 +24,9 @@ _Version 0.1_
   - [Search tools](#search-tools)
     - [`grep`](#grep)
     - [`find`](#find)
+  - [Archive tools](#archive-tools)
+    - [`tar`](#tar)
+    - [`gzip`, `gunzip`](#gzip-gunzip)
   - [Acknowledgements](#acknowledgements)
   - [References](#references)
 
@@ -162,9 +166,9 @@ Note: `finger`, `who`, and `user` are not working with WSL. We need to investiga
 
 Linux is a multi-user operating system. For appropriate access of files and directories, Linux sets authorization via  
 
-* Ownership. Every file/directory is assigned to three different owner types: *user*, *group*, *others* 
+- Ownership. Every file/directory is assigned to three different owner types: *user*, *group*, *others* 
   
-* Permissions. Every file/directory has three permission levels: *read*, *write*, *execute* 
+- Permissions. Every file/directory has three permission levels: *read*, *write*, *execute* 
 
 One can use `ls -l`: `ls` with a long-format display to see file/directory ownership and permissions. 
 
@@ -172,13 +176,25 @@ One can use `ls -l`: `ls` with a long-format display to see file/directory owner
 
     chmod [reference][operator][mode] file...
 
-Examples 
+Examples
 
     chmod ugo+rwx cs102.txt
     chmod go-rwx names.tx
-    chmod ugo+rwx names.tx
+    chmod ugo+rwx names.txt
 
 Note: sometimes, when you are not in a Linux file system, `chmod` may not give you the expected results. For example, see [wsl issues with chmod](https://superuser.com/questions/451475/chmod-doesnt-work)
+
+
+
+`chmod` can also be used to set permissions using a numerical representation. 
+
+For example, to set permissions of on file `cs102.txt` to `rwxr--r–-`, run:
+
+    chmod 744 cs102.txt
+
+For example, see Linux File/Directory Permissions [cheat sheet](https://www.thegeekdiary.com/linux-file-directory-permissions-cheat-sheet/) for the mapping of characters to numericals.
+
+
 
 ### Change user/group via `chown` 
 
@@ -214,8 +230,46 @@ Command `find` helps to find files based on various filters, some are given belo
 
 An example is given below. 
 
+    find ./ -type f -perm 644 -user clint
+    find ./ -type d -perm 755 -user clint
 
-## Acknowledgements 
+## Archive tools
+
+### `tar`
+
+This is a useful tool to archive a set of files or directories. 
+
+Usage:
+
+    tar [options] [archive file name] ... 
+
+Options
+
+- `-c` To create a new archive 
+- `-t` To list elements in an archive 
+- `-x` To extract files or directories from an archive 
+- `-r` To add files or directories to an archive 
+- `-v` To activate verbose mode
+- `-f` To specify the archive file name
+  
+Examples:
+
+    tar -cvf cs102.tar cs102/.
+    tar -tvf cs102.tar 
+    tar -xvf cs102.tar 
+    tar -xvf cs102.tar -C cs102-extract/. 
+
+### `gzip`, `gunzip`
+
+Examples:
+
+    gzip cs102.tar 
+    gunzip cs102.tar.gz 
+
+
+
+
+## Acknowledgements
 
 I thank the instructors of the previous offerings of courses CS102 and CS251, Dr. Amaldev Manuel and Dr. Sudakshina Dutta, for sharing the relevant resources.   
 
