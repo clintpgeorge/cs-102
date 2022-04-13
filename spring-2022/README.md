@@ -43,9 +43,8 @@ Phone: 832 249 0117
 
 - Soumya Ranjan Pattanayk — soumya2113104 [at] iitgoa [dot] ac [dot] in
 
-- Raushan Kumar
+- Anshul Moon — anshul2113107 [at] iitgoa [dot] ac [dot] in
 
-- Anshul Moon 
 
 ## Weekly Meetings
 
