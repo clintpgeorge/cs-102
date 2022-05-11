@@ -13,6 +13,9 @@ _Version 0.1_
   - [Misc](#misc)
   - [References](#references)
 
+
+> If you find errors or have queries/suggestions, please email `clint [at] [iitgoa domain]`. 
+
 ## Set up your `git` enviroment  
 
 I assume you use a Linux, Mac, Windows Subsystem for Linux (WSL) environment. Execute the command  
@@ -115,6 +118,7 @@ For a better visualization of your repository with all commits and details, use 
 
     git log --oneline --decorate --graph --all
 
+
 ## References  
 
 For more information, see 
@@ -122,5 +126,7 @@ For more information, see
 1. [Git Crash Course - A Simple Workflow for Small Teams and Startups
 ](https://zachgollwitzer.com/posts/2019/git-crash-course/) by Z. Gollwitzer
 2. Git [cheat-sheet](https://education.github.com/git-cheat-sheet-education.pdf) 
+
+ 
 
 
