@@ -21,3 +21,23 @@ This is a sample sentence for this section.
 ## Section 3 
 
 This is a sample sentence for this section. 
+
+
+This is an example of an unordered list. 
+- Coffee 
+- Tea 
+- Snacks 
+
+Ordered list 
+1. Coffee 
+2. Tea
+3. Biscuits
+
+This is a sample hyperlink: [IIT Goa](https://iitgoa.ac.in/ "IIT Goa")
+
+
+![Tiger](https://en.wikipedia.org/wiki/India#/media/File:Panthera_tigris_tigris_Tidoba_20150306.jpg)
+
+> Highlights
+> 
+> Midsem exam is on Monday, May 30, 2022
