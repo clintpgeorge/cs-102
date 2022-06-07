@@ -41,3 +41,34 @@ This is a sample hyperlink: [IIT Goa](https://iitgoa.ac.in/ "IIT Goa")
 > Highlights
 > 
 > Midsem exam is on Monday, May 30, 2022
+
+---
+
+The following are examples of source code displays in Markdown. 
+
+
+    print("Hello everyone!")
+
+
+
+1. Open the file.
+2. Find the following code block on line 21:
+
+        <html>
+          <head>
+            <title>Test</title>
+          </head>
+
+3. Update the title to match the name of your website.
+
+----
+
+
+This is a ***bold, italicized*** and *italicized* text. 
+
+### Table example 
+
+| Syntax (left aligned) | Description (center aligned) |
+| --- | :-----------: |
+| Header | Title |
+| Paragraph | Text |
