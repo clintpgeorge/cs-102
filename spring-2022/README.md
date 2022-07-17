@@ -109,7 +109,7 @@ The tentative grade distribution for the course is follows
 
 |  S/N  |    Topic  |  
 | :---: | :------------- |
-||  **Module 1: Basic GNU/Linux commands, shell scripting, Git** | 6
+||  **Module 1: Basic GNU/Linux commands, shell scripting, Git** | 
 |   1  |  Basic GNU/Linux commands | 
 |   2  |  Shell scripting |
 |   3   |  Advanced `bash` commands | 
