@@ -13,7 +13,9 @@ The course familiarizes students with some of the standard tools on a GNU/Linux 
 > *Highlights*
 > - Classes commence on **Monday, April 4, 2022**
 > - Lectures, tutorials, and labs will be conducted online, initially. <br/>Check the course's Google [Classroom](https://classroom.google.com/) for more details. 
-> - Last day of classes: **Monday, July 18, 2022**
+> - Last day of classes: **Tuesday, July 19, 2022**
+> - Final examination: **Saturday, July 23, 2022**
+
 
 
 **Outline**
@@ -93,37 +95,33 @@ Note: _No makeup exam/quiz/assignments will be conducted._
 
 The tentative grade distribution for the course is follows
 
-- Quizzes and Midterm (40%) 
+- Quizzes and Midterm (30%) 
 
-- Homework/Programming/Lab assignments (30%)
+- Homework/Programming/Lab assignments/Mini-project (30%)
 
-- Final (30%)
+- Final (40%)
 
 
 
 ## Teaching plan
 
-Note: This is a tentative course schedule. Also, *log on* to [Classroom](https://classroom.google.com/) to see lecture slides, videos, additional course materials, and announcements.
+*Log on* to [Classroom](https://classroom.google.com/) to see lecture slides, videos, additional course materials, and announcements.
 
-|  S/N  |    Topic  |  Lectures |
-| :---: | :------------- | :----:  | 
+|  S/N  |    Topic  |  
+| :---: | :------------- |
 ||  **Module 1: Basic GNU/Linux commands, shell scripting, Git** | 6
-|   1  |  Basic GNU/Linux commands | 2 | 
-|   2  |  Shell scripting | 1 | 
-|   3   |  Adv. commands | 1 | 
-|   4   |  Version control, Git | 2 | 
-|| **Module 2: Web development tools** | 7
-|   5   | Markdown | 1 | 
-|   6   | HTML Basics | 2 | 
-|   7   | CSS | 1 | 
-|   8   | Javascript | 1 |
-|   9   | Angular, bootstrap | 2 |
-|| **Module 3: Basics of typography and typesetting** | 4
-|   10   | Basics of typography | 1
-|   11   | Typesetting using TeX | 1
-|   12   | LaTeX: article class | 1
-|   13   | Beamer | 1 
-|| **Module 4: Raster and vector images and editing** | 2
-|   14   | Raster and vector images | 1
-|   15   | GIMP | 1 
-|| **Module 5: Miscellaneous — statistical computing and graphics** | 4 
+|   1  |  Basic GNU/Linux commands | 
+|   2  |  Shell scripting |
+|   3   |  Advanced `bash` commands | 
+|   4   |  Version control, basic `git` commands | 
+|| **Module 2: Web development tools** | 
+|   5   | Markdown | 
+|   6   | HTML| 
+|   7   | CSS |
+|   8   | JavaScript | 
+|| **Module 3: Basics of typography and typesetting** |
+|   9   | Basics of Typography | 
+|   10   | Typesetting using $\TeX, \LaTeX$ | 
+|   11   | $\LaTeX$: `article` class | 
+|   12   | $\LaTeX$: `beamer` class | 
+ 
