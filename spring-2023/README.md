@@ -1,4 +1,4 @@
-# CS102: Software Tools
+# CS 102: Software Tools
 
 **Spring 2023**
 
@@ -11,12 +11,12 @@ The course familiarizes students with some of the standard tools on a GNU/Linux 
 
 
 > *Highlights*
-> - Classes commence on **Monday, Feb 26, 2023**
+> - Classes commence on **Monday, Feb 27, 2023**
 > - Check the course's Google [Classroom](https://classroom.google.com/) for more details. 
 
 
 **Outline**
-- [CS102: Software Tools](#cs102-software-tools)
+- [CS 102: Software Tools](#cs-102-software-tools)
   - [Instructor](#instructor)
   - [Teaching Assistants](#teaching-assistants)
   - [Weekly Meetings](#weekly-meetings)
@@ -41,7 +41,7 @@ Phone: 832 249 0117
 ## Weekly Meetings
 
 - Lecture + lab (2 lectures, 50 minutes each): 
-  - **Monday** at **9 pm**
+  - **Monday** at **9 am**
   - **Tuesday** at **9 am**
 
 ## Recommended Books
