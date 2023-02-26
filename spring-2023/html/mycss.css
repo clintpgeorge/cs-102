@@ -1,0 +1,20 @@
+/* 
+
+This is an extern style sheet document.  
+
+Date modified: June 13, 2022
+
+*/
+
+
+/* Element CSS selector */
+body {
+    background-color: rgb(177, 212, 242);
+}
+
+h1 {
+    color: navy;
+    margin-left: 10px;
+    padding: 20px;
+}
+
