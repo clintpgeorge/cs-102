@@ -22,7 +22,7 @@ Note: sometimes, when you are not in a Linux file system, `chmod` may not give y
 
 
 
-`chmod` can also be used to set permissions using a numerical representation. 
+`chmod` can also be used to set permissions using a [numerical representation](https://en.wikipedia.org/wiki/Chmod). 
 
 For example, to set permissions of on file `cs102.txt` to `rwxr--r–-`, run:
 
@@ -31,17 +31,16 @@ For example, to set permissions of on file `cs102.txt` to `rwxr--r–-`, run:
 For example, see Linux File/Directory Permissions [cheat sheet](https://www.thegeekdiary.com/linux-file-directory-permissions-cheat-sheet/) for the mapping of characters to numericals.
 
 
-
-### Change user/group via `chown` 
+### Change user/group via `chown`
 
     chown [user]:[group] [filename]
 
-Examples 
+Examples
 
     chown Arun cs102.txt  
     chown Arun:IITGoa cs102.txt 
 
-## Search tools 
+## Search tools
 
 ### `grep` 
 
