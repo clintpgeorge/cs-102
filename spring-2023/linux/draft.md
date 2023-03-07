@@ -55,6 +55,10 @@ Options:
 * `-i` enables case insensitive search 
 * `-w` searches for a given word 
 
+
+_A bit of history from Prof. Brian Kernighan [see](https://www.youtube.com/watch?v=NTfOnGZUZDk&ab_channel=Computerphile)_
+
+
 ### `find` 
 
 Command `find` helps to find files based on various filters, some are given below. 
@@ -95,6 +99,8 @@ Examples:
     tar -xvf cs102.tar -C cs102-extract/. 
 
 ### `gzip`, `gunzip`
+
+`gzip` zips an archive and `gunzip` unzips an ziped file. 
 
 Examples:
 
