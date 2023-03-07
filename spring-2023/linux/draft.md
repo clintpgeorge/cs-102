@@ -100,7 +100,9 @@ Examples:
 
 ### `gzip`, `gunzip`
 
-`gzip` zips an archive and `gunzip` unzips an ziped file. 
+
+`gzip` zips an archive file and `gunzip` unzips a ziped file. 
+
 
 Examples:
 
@@ -111,14 +113,14 @@ Examples:
 
 ### `ssh` 
 
-To etablish a secured shell connection, use the following command  
+To etablish a secured shell connection to a remote machine on the netwwork, use the following command. 
 
     ssh username@<server ip>
 
 
 ### `scp` 
 
-Secured file copy, e.g., 
+This command copies files securely. Examples are the following.  
 
     scp file_name.txt username@<server ip>:~/. 
     scp username@<server ip>:~/file_name.txt . 
