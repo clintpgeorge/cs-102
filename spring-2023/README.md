@@ -12,12 +12,12 @@ The course familiarizes one with some standard GNU/Linux system tools. It also e
 > *Highlights*
 > - Classes commence on **Monday, Feb 27, 2023**
 > - Check the course's Google [Classroom](https://classroom.google.com/) for more details. 
+> - Last day of classes on **Tuesday, May 23, 2023** 
 
 
 **Outline**
 - [CS 102: Software Tools](#cs-102-software-tools)
   - [Instructor](#instructor)
-  - [Teaching Assistants (TAs)](#teaching-assistants-tas)
   - [Weekly Meetings - Lectures + Labs](#weekly-meetings---lectures--labs)
   - [Recommended Books](#recommended-books)
   - [Course Eligibility and Requirements](#course-eligibility-and-requirements)
@@ -31,20 +31,6 @@ The course familiarizes one with some standard GNU/Linux system tools. It also e
 [Clint P. George](https://www.iitgoa.ac.in/~clint) — clint [at] iitgoa [dot] ac [dot] in <br/>
 Office: F9, New Academic Block A <br/>
 Phone: 832 249 0117
-
-## Teaching Assistants (TAs)
-
-- Anshul 
-
-- Nikita 
-
-- Rashika
-
-- Sumitra 
-
-- Tushar (Lead TA)
-
-- Vishawjeet 
 
 
 ## Weekly Meetings - Lectures + Labs
