@@ -99,9 +99,7 @@ The **tentative** grade distribution for the course is follows
 |   6   | HTML                                                         |
 |   7   | CSS                                                          |
 |   8   | JavaScript                                                   |
-|       | **Module 3: Basics of typography and typesetting**           |
-|   9   | Basics of Typography                                         |
-|  10   | Typesetting using $\TeX$, $\LaTeX$                             |
-|  11   | $\LaTeX$: `article` class                                    |
-|  12   | $\LaTeX$: `beamer` class                                     |
+|       | **Module 3: Basics of typesetting**                          |
+|  9    | Typesetting using $\TeX$, $\LaTeX$                           |
+|  10   | $\LaTeX$: `article` class                                    |
  
