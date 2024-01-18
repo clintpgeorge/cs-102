@@ -1,0 +1,104 @@
+#!/bin/bash
+
+
+# first 
+echo Good Morning!
+echo Welcome to CS102.
+
+
+# arithmetic 1 
+
+
+# Adds two numeric values and saves the result to a var. 
+
+((s=28+3))
+echo Sum = $s
+
+
+
+#!/bin/bin
+
+echo Enter number 1
+read num1
+
+echo Enter number 2
+read num2
+
+let s=num1**num2
+
+echo Output = $s
+
+
+
+
+# if elif else fi 
+
+echo "Enter a value"
+read val 
+
+if [ $val -gt 0 ]; then
+echo "The value is positive"
+elif [ $val -lt 0 ]; then
+echo "The value is negative"
+else
+echo "The value is 0"
+fi
+
+
+# while 1 
+
+valid=true
+count=1
+s=0
+
+while [ $valid ]
+echo $count
+do
+	if [ $count -gt 10 ];
+	then
+		echo "Exit from while"
+		break
+	else
+		((s=s+count))
+		((count++))
+	fi
+done
+
+echo "The sum of first 10 natural numbers = $s"
+
+
+# while 2
+
+#!/bin/bash
+
+echo "Enter the number"
+read num 
+
+let i=1
+let s=0
+while [ $i -lt $num ];
+do
+
+echo "Iteration: $i" 
+((s=s+i*i)) # sum 
+((i=i+1)) # loop increment 
+ 
+done
+
+echo "Sum of squares below $num = $s"
+
+
+
+# argument passing 
+
+echo "Enter a value"
+read val 
+echo $val  
+
+echo first argument is $1
+echo "second argument is $2"
+
+printf "The arguments are %s\n\n" "$*"
+
+echo $* 
+
