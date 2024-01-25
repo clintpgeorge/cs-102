@@ -102,3 +102,28 @@ printf "The arguments are %s\n\n" "$*"
 
 echo $* 
 
+
+
+
+# for loop 
+
+  134  for i in 1 2 3 4 5 5 6; do echo $i; done
+  135  for i in This is a sample sentence for for-loop; do echo $i; done
+  136  for i in {1..6}; do echo $i; done
+  137  for i in {1..6..2}; do echo $i; done
+  138  history
+
+
+# clint@DESKTOP-RNEEKML:~$ cat read-a-file.sh
+#!/bin/bash
+
+
+n=0
+while read i
+do
+        echo $i | wc -w
+        nw=$(echo $i | wc -w)
+        ((n=n+nw))
+done < test.txt
+
+echo "Number of words in the file $n"
